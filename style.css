@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gabriela&family=Manrope:wght@400;600;700&family=Sacramento&display=swap');
+
+:root {
+--black: #000009ff;
+--grey: #f1f1f1;
+--rich-black: #0d1821ff;
+--white: white;
+--dark-grey: #5b5b5b;
+--light-blue: #00a2ff;
+}
+
+
+
+body {
+    margin: 0;
+    background-image: linear-gradient(360deg, grey, white);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    margin: 20vh auto;
+    border-radius: 20px;
+    padding: 100px 50px;
+    background-color: var(--dark-grey);
+    box-shadow: 0 4px 8px var(--light-blue);
+
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+#secondh1 {
+    color: var(--rich-black);
+    font-style: italic;
+}
+
+h2 {
+  margin-top: 15px; 
+  color: var(--light-blue); 
+  font-size: 1.2rem;
+}
+
+hr {
+    width: 100%;
+    background-color: var(--light-blue);
+}
+
+#generate {
+    margin: 40px 0 20px 0;
+    width: 200px;
+    height: 40px;
+    border-radius:10px;
+    cursor: pointer;
+    border: none;
+    color: var(--white);
+    background-color: var(--rich-black);
+    font-size: 1rem;
+    font-weight: bold; 
+    transition: 0.5s ease-in-out; 
+}
+
+#generate:hover {
+    background-color: var(--light-blue);
+}
+
+#passworddiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.password { 
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: var(--rich-black);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color: var(--grey);
+    margin-top: 15px;
+}
+
+
+@media (max-width: 700px) {
+    #container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
