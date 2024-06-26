@@ -1,1 +1,2 @@
 Ever struggled with creating a new, secure different password to protect your files and/or accounts? The stress that comes with having the same password for everyting is reslly frustrating. With this modern password generator, you can create a new secure password for yourself and loved ones.
+![PASSWORD GENERATOR LANDSCAPE](https://github.com/itumeleng-m/new-password-generator/assets/125331724/e518e196-8edd-46bc-a41f-9fba86c02143)
